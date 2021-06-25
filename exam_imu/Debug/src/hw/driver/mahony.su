@@ -1,0 +1,8 @@
+mahony.c:32:6:Mahony_Init	4	static
+mahony.c:47:7:Mahony_invSqrt	32	static
+mahony.c:61:6:Mahony_mpu9250_update	144	static
+mahony.c:169:6:Mahony_mpu6050_update	72	static
+mahony.c:249:6:Mahony_computeAngles	16	static
+mahony.c:258:7:getRoll	8	static
+mahony.c:263:7:getPitch	8	static
+mahony.c:268:7:getYaw	8	static

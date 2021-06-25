@@ -1,0 +1,30 @@
+/*
+ * main.c
+ *
+ *  Created on: Mar 14, 2021
+ *      Author: sungt
+ */
+
+
+#include "main.h"
+
+
+
+int main(void)
+{
+	hwInit();
+	apInit();
+
+//	apBoardTest();
+
+
+
+/* TODO ★ : Select IMU Filter */
+
+//	apKalman();
+	apMahony();
+//	apMadgwick();
+
+
+	return 0;
+}

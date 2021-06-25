@@ -1,0 +1,13 @@
+/*
+ * mpu6050.h
+ *
+ *  Created on: 2021. 6. 23.
+ *      Author: sungt
+ */
+
+#ifndef SRC_COMMON_HW_INCLUDE_MPU6050_H_
+#define SRC_COMMON_HW_INCLUDE_MPU6050_H_
+
+
+
+#endif /* SRC_COMMON_HW_INCLUDE_MPU6050_H_ */

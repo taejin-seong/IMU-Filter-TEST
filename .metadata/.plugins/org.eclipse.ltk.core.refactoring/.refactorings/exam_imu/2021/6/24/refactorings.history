@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;exam_imu/src/common/core/Mahony.h&apos; to &apos;mahony.h&apos;" description="Rename resource &apos;Mahony.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/common/core/Mahony.h" name="mahony.h" stamp="1623507344946" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;exam_imu/src/common/core/mahony.h&apos; to &apos;Mahony.h&apos;" description="Rename resource &apos;mahony.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/common/core/mahony.h" name="Mahony.h" stamp="1623507357010" updateReferences="true"/>
+</session>

@@ -1,0 +1,11 @@
+mpu9250.c:39:5:Check_Connection	32	static
+mpu9250.c:55:6:IMU_Set_Clock_Source	32	static
+mpu9250.c:66:6:Set_Accel_Range	32	static
+mpu9250.c:93:6:Set_Gyro_Range	32	static
+mpu9250.c:110:6:Reset_MPU	24	static
+mpu9250.c:121:6:Init_IMU	24	static
+mpu9250.c:296:6:Process_IMU_Kalman	104	static
+mpu9250.c:353:6:Process_IMU_Mahony	48	static
+mpu9250.c:395:6:Process_IMU_Madgwick	48	static
+mpu9250.c:433:6:Process_IMU_Complementary	48	static
+mpu9250.c:443:6:Calibration_IMU	40	static

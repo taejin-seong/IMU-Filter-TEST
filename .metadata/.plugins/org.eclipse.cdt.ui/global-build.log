@@ -1,0 +1,20 @@
+17:12:19 **** Incremental Build of configuration Debug for project exam_imu ****
+make -j4 all 
+arm-none-eabi-gcc "../src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32F103xB -c -I"C:/STM32 Coding files/stm32f1_imu/exam_imu/src" -I"C:/STM32 Coding files/stm32f1_imu/exam_imu/src/ap" -I"C:/STM32 Coding files/stm32f1_imu/exam_imu/src/bsp" -I"C:/STM32 Coding files/stm32f1_imu/exam_imu/src/common" -I"C:/STM32 Coding files/stm32f1_imu/exam_imu/src/hw" -I"C:/STM32 Coding files/stm32f1_imu/exam_imu/src/lib" -I"C:/STM32 Coding files/stm32f1_imu/exam_imu/src/lib/cube_imu/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/STM32 Coding files/stm32f1_imu/exam_imu/src/lib/cube_imu/Drivers/CMSIS/Include" -I"C:/STM32 Coding files/stm32f1_imu/exam_imu/src/lib/cube_imu/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/STM32 Coding files/stm32f1_imu/exam_imu/src/common/hw/include" -I"C:/STM32 Coding files/stm32f1_imu/exam_imu/src/common/core" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"src/main.d" -MT"src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "src/main.o"
+arm-none-eabi-gcc -o "exam_imu.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\STM32 Coding files\stm32f1_imu\exam_imu\src\bsp\ldscript\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="exam_imu.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: exam_imu.elf
+ 
+arm-none-eabi-objdump -h -S  exam_imu.elf  > "exam_imu.list"
+arm-none-eabi-objcopy  -O ihex  exam_imu.elf  "exam_imu.hex"
+arm-none-eabi-objcopy  -O binary  exam_imu.elf  "exam_imu.bin"
+arm-none-eabi-size   exam_imu.elf 
+   text	   data	    bss	    dec	    hex	filename
+  45900	    520	   2544	  48964	   bf44	exam_imu.elf
+Finished building: default.size.stdout
+Finished building: exam_imu.hex
+Finished building: exam_imu.bin
+ 
+ 
+ 
+Finished building: exam_imu.list
+ 

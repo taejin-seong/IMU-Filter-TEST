@@ -1,0 +1,6 @@
+madgwick.c:47:6:MadgwickAHRSupdate	192	static
+madgwick.c:146:6:MadgwickAHRSupdateIMU	120	static
+madgwick.c:214:6:MahonyAHRSupdate	152	static
+madgwick.c:318:6:MahonyAHRSupdateIMU	72	static
+madgwick.c:389:6:MadgwickQuaternionUpdate	200	static
+madgwick.c:480:7:invSqrt	32	static

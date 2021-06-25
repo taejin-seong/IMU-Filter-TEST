@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete 2 resources" deleteContents="false" description="Delete 2 resources" element1="/exam_imu/src/common/hw/include/mpu6050.h" element2="/exam_imu/src/hw/driver/mpu6050.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="2" stamp="1624428477703"/>&#x0A;<refactoring comment="Delete 2 resources" deleteContents="false" description="Delete 2 resources" element1="/exam_imu/src/common/hw/include/mahony.h" element2="/exam_imu/src/hw/driver/mahony.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="2" stamp="1624434111028"/>
+</session>

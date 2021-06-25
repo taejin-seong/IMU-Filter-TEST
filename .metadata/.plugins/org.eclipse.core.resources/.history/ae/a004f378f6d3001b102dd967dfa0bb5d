@@ -1,0 +1,31 @@
+/*
+ * mahony.h
+ *
+ *  Created on: Jun 13, 2021
+ *      Author: sungt
+ */
+
+#ifndef SRC_COMMON_CORE_MAHONY_H_
+#define SRC_COMMON_CORE_MAHONY_H_
+
+
+
+#include "hw_def.h"
+
+#ifdef _USE_HW_MAHONY
+
+#define PI					3.14159265358979f
+
+void Mahony_mpu6050_update(float gx, float gy, float gz, float ax, float ay, float az);
+void Mahony_mpu9250_update(float gx, float gy, float gz, float ax, float ay, float az, float mx, float my, float mz);
+void Mahony_Init();
+void Mahony_computeAngles(void);
+float Mahony_invSqrt(float x);
+float getRoll(void);
+float getPitch(void);
+float getYaw(void);
+
+
+#endif /* _USE_HW_MANHONY */
+
+#endif /* SRC_COMMON_CORE_MAHONY_H_ */
